@@ -1,0 +1,57 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+main,
+:root {
+    height: 100%;
+    width: 100%;
+}
+
+body:not(i) {
+    background-color: lightblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    text-align:center;
+}
+
+.exercise {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.exercise li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.exercise h1 {
+    margin-bottom: 1rem;
+}
+
+.exercise i {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: lightskyblue;
+}
+
+.exercise button {
+    padding: 0.5rem;
+}
